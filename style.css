@@ -8,7 +8,7 @@ body {
 
 .container {
     background-color: white;
-    max-width: 350px;
+    max-width: 400px;
     margin: 10vh auto 0 auto;
     border-radius: 4ch;
 
@@ -38,6 +38,8 @@ body {
     border-bottom: 1px solid #a3a3a3;
     border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 10px;
 }
 
 /* div {
@@ -75,10 +77,10 @@ body {
 
 .button:hover{
     background-image: url(image/black.jpg);
-    /* background-color: #222222; */
-    object-fit: cover;
-  object-position: center;
-  background-size: cover;
+    /*background-color: #222222;
+    */object-fit: cover;
+    object-position: center;
+    background-size: cover;
     color:white;
     transition: 0.5s ease-in-out;
-}
+    
