@@ -1,8 +1,18 @@
+body {
+    /* display: flex; */
+    background-image: url(/image/Screenshot\ from\ 2023-09-16\ 11-25-34.png);
+    object-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
 .container {
+    background-color: white;
     max-width: 350px;
     margin: 10vh auto 0 auto;
     border-radius: 4ch;
-    box-shadow: 0px 0px 43px 17px rgb(46, 44, 44);
+
+    box-shadow: 0px 0px 43px 17px rgb(255, 255, 255);
 }
 
 #display {
@@ -16,17 +26,35 @@
 }    
 
 .buttons {
-    background-color: #aeb3a6;
+    box-shadow: 0px 0px 43px 17px rgb(120, 118, 118);
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+    /* background-image: url(image/black.jpg);
+    object-position: center;
+    object-fit: cover;
+    background-size: cover; */
+    background-color: #222222;
     display: grid;
     border-bottom: 1px solid #a3a3a3;
     border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/* div {
+    background-image: url(image/black.jpg);
+    border-radius: 29%;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+} */
 
 
 .buttons > div {
     background-image: url(image/black.jpg);
+    /* object-position: center;
+    object-fit: cover;
+    background-size: cover; */
+    color: rgb(255, 255, 255);
+    font-size: 40;
     border-radius: 29%;
     border-top: 1px solid #999;
     border-right: 1px solid #999;
@@ -47,6 +75,7 @@
 
 .button:hover{
     background-image: url(image/black.jpg);
+    /* background-color: #222222; */
     object-fit: cover;
   object-position: center;
   background-size: cover;
